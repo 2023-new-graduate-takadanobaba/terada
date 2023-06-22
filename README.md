@@ -54,7 +54,7 @@
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));<br>
 		String str = reader.readLine();<br>
 		int num = Integer.parseInt(str);<br>
-   -  名前を入力する
+   -  文字列を入力する
       -  BufferedReaderを作る
           -  インポートする
           -  System.inを渡してnewする
