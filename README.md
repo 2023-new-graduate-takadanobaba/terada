@@ -53,7 +53,7 @@
  >System.out.println("数字を入力してください");<br>
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));<br>
 		String str = reader.readLine();<br>
-		int num = Integer.parseInt(str);<br>
+		~~int num = Integer.parseInt(str);<br>~~
    -  文字列を入力する
       -  BufferedReaderを作る
           -  インポートする
@@ -62,7 +62,7 @@
       -  BufferedReader.reader()で数字、文字列を入力する
           -   reader.readLine()を呼ぶ
           -   String型のstrに格納する
-          -   strをint型のnumに変換する。<br><br>
+          -   ~~strをint型のnumに変換する。<br><br>~~
 - 処理
    -  入力された文字列が数字(true)か否かを判断する
    -  trueならば、3で割る"numが入力されました。3の倍数です(ではありません)。"
@@ -74,6 +74,7 @@
       1.  numがfalseの場合
           -  "数値を入力してください"
       1.  numがtrueである場合
+          -  int num = Integer.parseInt(str); numをint型にする。
           -  if(num%3==0) while終了<br><br>
  abcをwhileで繰り返す。<br>
 -  出力
