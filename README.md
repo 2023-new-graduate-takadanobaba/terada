@@ -68,12 +68,12 @@
    -  trueならば、3で割る"numが入力されました。3の倍数です(ではありません)。"
    -  falseならば、"数字を入力してください。"を繰り返す<br><br>
       1.  例外処理を行う
-          -  booleanでnumの初期値をtrueと設定する。
+          -  booleanでstrの初期値をtrueと設定する。
           -  trycatch文の(NumberFormatException e)を使用する。
-          -  catchの際のnumをfalseとする。したがってnumが数値である場合にtrue、それ以外である場合にfalseになる。
-      1.  numがfalseの場合
+          -  catchの際のstrをfalseとする。したがってstrが数値である場合にtrue、それ以外である場合にfalseになる。
+      1.  strがfalseの場合
           -  "数値を入力してください"
-      1.  numがtrueである場合
+      1.  strがtrueである場合
           -  int num = Integer.parseInt(str); numをint型にする。
           -  if(num%3==0) while終了<br><br>
  abcをwhileで繰り返す。<br>
