@@ -57,8 +57,22 @@
           -  System.inを渡してnewする
           -  変数readerに格納する
       -  BufferedReader.reader()で数字、文字列を入力する
-          -   BufferedReader.reader()を呼ぶ 
-      
-      -  Sysout()でnameを表示して動作確認
+          -   reader.readLine()を呼ぶ
+          -   String型のstrに格納する
+          -   strをint型のnumに変換する。<br><br>
+- 入力
+ >System.out.println("数字を入力してください");<br>
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));<br>
+		String str = reader.readLine();<br>
+		int num = Integer.parseInt(str);<br>
+   -  名前を入力する
+      -  BufferedReaderを作る
+          -  インポートする
+          -  System.inを渡してnewする
+          -  変数readerに格納する
+      -  BufferedReader.reader()で数字、文字列を入力する
+          -   reader.readLine()を呼ぶ
+          -   String型のstrに格納する
+          -   strをint型のnumに変換する。
 
 
