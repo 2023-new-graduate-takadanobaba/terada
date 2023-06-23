@@ -34,7 +34,18 @@
     -  ファイルを作る
     -  パッケージtest011を作る
     -  クラスDemonを作る
--  入力
-    -  名前を入力する。
-    -  
+- 処理
+     -  String 型の変数str、boolean型の変数isNumを宣言する
+- 入力
+ >System.out.println("数字を入力してください");<br>
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));<br>
+		String str = reader.readLine();<br>
+   -  文字列を入力する
+      -  BufferedReaderを作る
+          -  インポートする
+          -  System.inを渡してnewする
+          -  変数readerに格納する
+      -  BufferedReader.reader()で数字、文字列を入力する
+          -   reader.readLine()を呼ぶ
+          -   String型のstrに格納する
 
