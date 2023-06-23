@@ -33,9 +33,10 @@
 -  事前準備
     -  ファイルを作る
     -  パッケージtest011を作る
-    -  クラスDemonを作る
+    -  要素を格納するクラスDemonを作る
+    -  オブジェクトクラスDemonsを作る、getter、setter
 - 処理
-     -  String 型の変数str、boolean型の変数isNumを宣言する
+     -  隊士名と呼吸が対応するように配列を作る
 - 入力
  >System.out.println("数字を入力してください");<br>
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));<br>
@@ -48,4 +49,6 @@
       -  BufferedReader.reader()で数字、文字列を入力する
           -   reader.readLine()を呼ぶ
           -   String型のstrに格納する
+       
+         
 
