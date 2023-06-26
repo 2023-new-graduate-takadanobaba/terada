@@ -11,12 +11,14 @@
 -  ボタンを押せる
 -  コーラが出る
 
-@test
-  public void ボタンを押すとコーラが返る(){
-    //Arrange
-    //Act
-    //Assert
-    seerttEquals()
+> @test
+  public void ボタンを押すとコーラが返る(){ <br>
+    //Arrange　 <br>
+    //Act 2番目に書く <br>
+   ２⃣ VendungMacine sut = new VendengMachine;<br>
+   １⃣ String item = sut.pushButton(); sutとは、テスト対象のこととしてよく使われる。<br>
+    //Assert 　1番目に書く　<br>　
+    seerttEquals("コーラ",item)  返ってきたitemがコーラかどうかを判断する <br>
   }
 
 # お題2. お金を払う
