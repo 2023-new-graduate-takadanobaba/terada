@@ -2,9 +2,9 @@ package test;
 
 public class VendingMachine {
 
-	public static void main(String[] args) {
+	public String pushButton() {
 		// TODO 自動生成されたメソッド・スタブ
-
+		return null;
 	}
 
 }
